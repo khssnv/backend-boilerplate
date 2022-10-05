@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.web.api import api_router
+from {{cookiecutter.project_slug}}.web.api import api_router
 
 app = FastAPI()
 

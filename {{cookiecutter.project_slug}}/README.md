@@ -1,4 +1,4 @@
-# Backend boilerplate
+# {{cookiecutter.project_slug}} boilerplate
 
 ## Develop
 
@@ -40,7 +40,7 @@ alembic upgrade head
 On a localhost
 
 ```console
-python -m backend
+python -m {{cookiecutter.project_slug}}
 ```
 
 Or in a container

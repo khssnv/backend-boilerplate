@@ -5,8 +5,8 @@ from sqlalchemy import pool
 
 from alembic import context
 
-from backend.core.config import settings
-from backend.db.base import Base
+from {{cookiecutter.project_slug}}.core.config import settings
+from {{cookiecutter.project_slug}}.db.base import Base
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

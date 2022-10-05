@@ -1,7 +1,7 @@
 from sqlalchemy import TIMESTAMP, Column, Integer, String, func
 from sqlalchemy.orm import relationship
 
-from backend.db.base_class import Base
+from {{cookiecutter.project_slug}}.db.base_class import Base
 
 
 class User(Base):

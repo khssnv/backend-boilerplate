@@ -5,8 +5,8 @@ from fastapi import Depends
 
 from sqlalchemy.orm import Session
 
-from backend.db.session import SessionLocal
-from backend.db.models.user import User
+from {{cookiecutter.project_slug}}.db.session import SessionLocal
+from {{cookiecutter.project_slug}}.db.models.user import User
 
 
 def get_db() -> Generator:

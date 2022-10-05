@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends
-from backend.web.schemas.user import NewUser
-from backend.web import dependencies
+from {{cookiecutter.project_slug}}.web.schemas.user import NewUser
+from {{cookiecutter.project_slug}}.web import dependencies
 
 from sqlalchemy.orm import Session
 
-from backend.db.models.user import User
+from {{cookiecutter.project_slug}}.db.models.user import User
 
 router = APIRouter()
 
